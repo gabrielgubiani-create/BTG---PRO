@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # ==========================================================
 # 1. IDENTIDADE VISUAL & UI (ENTERPRISE HIGH-END)
 # ==========================================================
-st.set_page_config(page_title="POSTGIBBSF90 BGT (PRO)", layout="wide", page_icon="🧬")
+st.set_page_config(page_title="POSTGIBBSF90 Analyzer (PRO)", layout="wide", page_icon="🧬")
 
 st.markdown("""
 <style>
@@ -248,4 +248,5 @@ if uploaded_file:
                 
                 st.download_button("📥 Baixar CSV Completo", final_df.to_csv().encode(), "BGT_PRO_Results.csv", use_container_width=True)
     except Exception as e: st.error(f"Erro: {e}")
+
 else: st.info("Pronto para processar. Carregue o arquivo acima.")
