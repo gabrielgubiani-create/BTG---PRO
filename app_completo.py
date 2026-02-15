@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # ==========================================================
 # 1. IDENTIDADE VISUAL & UI (ENTERPRISE HIGH-END)
 # ==========================================================
-st.set_page_config(page_title="POSTGIBBSF90 (PRO)", layout="wide", page_icon="🧬")
+st.set_page_config(page_title="POSTGIBBS PRO", layout="wide", page_icon="🧬")
 
 st.markdown("""
 <style>
@@ -43,7 +43,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header-pro"><h1>POSTGIBBSF90 BGT <span style="color:#1f77b4">PRO</span></h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="header-pro"><h1>POSTGIBBS PRO</h1></div>', unsafe_allow_html=True)
 
 # ==========================================================
 # 2. ENTRADA DE DADOS E NOMENCLATURA
@@ -250,4 +250,5 @@ if uploaded_file:
     except Exception as e: st.error(f"Erro: {e}")
 
 else: st.info("Pronto para processar. Carregue o arquivo acima.")
+
 
